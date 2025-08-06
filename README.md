@@ -18,6 +18,7 @@ To run the Tensile Analyzer program, the following prerequisite Python libraries
 ```
 pip install tkinter, pandas, numpy, matplotlib, scipy, os, warnings
 ```
+After installing these prerequisites, the tensile_analyzer_XXX.py file can be run in your IDE of choice, and the GUI will appear.
 ## Data File Format
 
 ## Examples and Testing
