@@ -14,6 +14,11 @@ The following plots can be generated and exported:
 ## Features
 
 ## Installation Instructions
+To run the Tensile Analyzer program, the following prerequisite Python libraries must be installed:
+```
+pip install tkinter, pandas, numpy, matplotlib, scipy, os, warnings
+```
+## Data File Format
 
 ## Examples and Testing
 
