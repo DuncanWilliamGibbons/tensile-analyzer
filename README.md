@@ -28,9 +28,10 @@ Data files exported from the UTM testing software can be imported into the Tensi
 
 The data file must be formatted to contain data for columns in the format and associated metric units defined below.
 
-| Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Diameter/Width (mm)	| Final Length (mm)	| Final Diameter (mm) |
-
-
+### Circular cross-section specimens
+| Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Diameter (mm)	| Final Length (mm)	| Final Diameter (mm) |
+### Rectangular cross-section specimens
+| Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Thickness (mm)	| Original Width (mm)	| Final Length (mm)	| Final Thickness (mm) | Final Width (mm) |
 
 ## Examples and Testing
 
