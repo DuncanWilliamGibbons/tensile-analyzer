@@ -18,8 +18,19 @@ To run the Tensile Analyzer program, the following prerequisite Python libraries
 ```
 pip install tkinter, pandas, numpy, matplotlib, scipy, os, warnings
 ```
-After installing these prerequisites, the tensile_analyzer_XXX.py file can be run in your IDE of choice, and the GUI will appear.
+After installing these prerequisites, the tensile_analyzer_XXX.py (where XXX is the relevant version of the program) file can be run in your IDE of choice, and the GUI will appear.
+
 ## Data File Format
+Data files exported from the UTM testing software can be imported into the Tensile Analyzer program in the following formats:
+- CSV (.csv)
+- XLSM (.xlsm)
+- TXT (.txt)
+
+The data file must be formatted to contain data for columns in the format and associated metric units defined below.
+
+| Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Diameter/Width (mm)	| Final Length (mm)	| Final Diameter (mm) |
+
+
 
 ## Examples and Testing
 
