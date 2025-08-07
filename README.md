@@ -10,7 +10,13 @@ The following plots can be generated and exported:
 - Ramberg-Osgood curve fitting and parameters.
 
 ## Table of Contents
-
+- [Description](#tensile-analyzer)
+- [Features](#features)
+- [Installation Instructions](#installation-instructions)
+- [Data Format](#data-format)
+- [Examples and Testing](#examples-and-testing)
+- [License and Citation](#license-and-citation)
+- [References](#references)
 ## Features
 The Tensile Analyzer has the following features:
 - Import data in various formats.
@@ -22,12 +28,12 @@ The Tensile Analyzer has the following features:
   - Elongation at fracture in % as the maximum extension as a percentage of the original gauge length.
   - Elongation after fracture in % as the final gauge length as a percentage of the original gauge length.
   - Reduction of Area (RA) in % as the percentage decrease in the final cross-sectional gauge area compared with the original cross-sectional gauge area.
-  - Modulus of Resilience in MJ/m<sup>3 as the area under the linear elastic region.
-  - Modulus of Toughness in MJ/m<sup>3 as the area under the full stress-strain curve.
+  - Modulus of Resilience in MJ/m<sup>3</sup> as the area under the linear elastic region.
+  - Modulus of Toughness in MJ/m<sup>3</sup> as the area under the full stress-strain curve.
   - Ramberg-Osgood parameters
-    - Strength coefficient, K.
+    - Strength coefficient, K in MPa.
     - Strain hardening exponent, n.
-    - Quality of git, R<sup>2.
+    - Quality of git, R<sup>2</sup>.
 - Plot data:
   - Stress-strain curve with annotated mechanical properties.
   - Regions of resilience and toughness moduli.
@@ -41,13 +47,13 @@ pip install tkinter, pandas, numpy, matplotlib, scipy, os, warnings
 ```
 After installing these prerequisites, the tensile_analyzer_XXX.py (where XXX is the relevant version of the program) file can be run in your IDE of choice, and the GUI will appear.
 
-## Data File Format
+## Data Format
 Data files exported from the UTM testing software can be imported into the Tensile Analyzer program in the following formats:
 - CSV (.csv)
 - XLSM (.xlsm)
 - TXT (.txt)
 
-The data file must be formatted to contain data for columns in the format and associated metric units defined below.
+The data file must be formatted to contain data for columns in the format and associated metric units defined below. The columns for recording the final post-fracture cross-sectional geometry of the tested specimen are optional. If these columns are blank, the program won't calculate elongation after fracture or reduction of area accordingly.
 
 ### Circular cross-section specimens
 | Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Diameter (mm)	| Final Length (mm)	| Final Diameter (mm) |
