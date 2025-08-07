@@ -63,7 +63,14 @@ The data file must be formatted to contain data for columns in the format and as
 
 ## Examples and Testing
 
+To be completed...
+
 ## License and Citation
+To cite this program
+
+MIT License
+
+Copyright (c) 2025 Duncan W. Gibbons, Ph.D.
 
 ## References
 
