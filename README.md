@@ -54,7 +54,10 @@ Data files exported from the UTM testing software can be imported into the Tensi
 - XLSM (.xlsm)
 - TXT (.txt)
 
-The data file must be formatted to contain data for columns in the format and associated metric units defined below. The columns for recording the final post-fracture cross-sectional geometry of the tested specimen are optional. Currently, the program only supports specimens with a circular cross-section. If these columns are blank, the program won't calculate elongation after fracture or reduction of area accordingly.
+The data file must be formatted to contain data for columns in the format and associated metric units defined below. The columns for recording the final post-fracture cross-sectional geometry of the tested specimen are optional. If these columns are blank, the program won't calculate elongation after fracture or reduction of area accordingly.
+
+> [!IMPORTANT]
+>  The program currently only supports specimens with a circular cross-section.
 
 ### Circular cross-section specimens
 | Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Diameter (mm)	| Final Length (mm)	| Final Diameter (mm) |
