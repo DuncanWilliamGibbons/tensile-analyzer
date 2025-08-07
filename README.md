@@ -12,7 +12,24 @@ The following plots can be generated and exported:
 ## Table of Contents
 
 ## Features
-
+The Tensile Analyzer has the following features:
+- Import data in various formats.
+- Analyze data in accordance with ASTM requirements.
+- Calculate mechanical properties:
+  - Ultimate Tensile Strength (UTS) in MPa as the maximum stress achieved.
+  - Yield Strength (YS) in MPa as the intersection of a 0.2% offset line and the stress-strain curve.
+  - Elastic Modulus (EM) or Young's Modulus in GPa as the gradient of a fitted slope to the middle 50% of datapoints in the linear elastic region.
+  - Elongation at fracture in % as the maximum extension as a percentage of the original gauge length.
+  - Elongation after fracture in % as the final gauge length as a percentage of the original gauge length.
+  - Reduction of Area (RA) in % as the percentage decrease in the final cross-sectional gauge area compared with the original cross-sectional gauge area.
+  - Modulus of Resilience in MJ/m^3 as the area under the linear elastic region.
+  - Modulus of Toughness in MJ/m^3 as the area under the full stress-strain curve.
+- Plot data:
+  - Stress-strain curve with annotated mechanical properties.
+  - Regions of resilience and toughness moduli.
+  - Engineering vs true stress-strain curve.
+  - Ramberg-Osgood curve fitting.
+- Export plots and results.
 ## Installation Instructions
 To run the Tensile Analyzer program, the following prerequisite Python libraries must be installed:
 ```
