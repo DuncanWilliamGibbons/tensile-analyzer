@@ -7,8 +7,8 @@ The following plots can be generated and exported:
 - Stress-strain plot with annotated YS, UTS, and EM.
 - Stress-strain plot with highlighted modulus of resilience and modulus of toughness areas.
 - Engineering stress-strain plot overlayed with true stress-strain plot.
-- Ramberg-Osgood curve fitting and parameters.
-- Hollomon equation parameters.
+- Ramberg-Osgood[^3] curve fitting and parameters.
+- Hollomon[^4] equation parameters.
 
 ## Table of Contents
 - [Description](#tensile-analyzer)
@@ -69,3 +69,5 @@ The data file must be formatted to contain data for columns in the format and as
 
 [^1]: ASTM International. Standard Test Methods for Tension Testing of Metallic Materials. ASTM E8/E8M, 2024.
 [^2]: ASTM International. Standard Test Method for Young’s Modulus, Tangent Modulus, and Chord Modulus. ASTM E111, 2017.
+[^3]: Ramberg, W., & Osgood, W. R. (1943). Description of stress–strain curves by three parameters. Technical Note No. 902, National Advisory Committee For Aeronautics, Washington, DC. 
+[^4]: J. H. Hollomon, “Tensile Deformation,” Transactions of the Metallurgical Society of AIME, Vol. 162, 1945, pp. 268-290.
