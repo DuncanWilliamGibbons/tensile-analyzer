@@ -22,8 +22,12 @@ The Tensile Analyzer has the following features:
   - Elongation at fracture in % as the maximum extension as a percentage of the original gauge length.
   - Elongation after fracture in % as the final gauge length as a percentage of the original gauge length.
   - Reduction of Area (RA) in % as the percentage decrease in the final cross-sectional gauge area compared with the original cross-sectional gauge area.
-  - Modulus of Resilience in MJ/m^3 as the area under the linear elastic region.
-  - Modulus of Toughness in MJ/m^3 as the area under the full stress-strain curve.
+  - Modulus of Resilience in MJ/m<sup>3 as the area under the linear elastic region.
+  - Modulus of Toughness in MJ/m<sup>3 as the area under the full stress-strain curve.
+  - Ramberg-Osgood parameters
+    - Strength coefficient, K.
+    - Strain hardening exponent, n.
+    - Quality of git, R<sup>2.
 - Plot data:
   - Stress-strain curve with annotated mechanical properties.
   - Regions of resilience and toughness moduli.
