@@ -28,8 +28,8 @@ The Tensile Analyzer has the following features:
   - Elongation at fracture in % as the maximum extension as a percentage of the original gauge length.
   - Elongation after fracture in % as the final gauge length as a percentage of the original gauge length.
   - Reduction of Area (RA) in % as the percentage decrease in the final cross-sectional gauge area compared with the original cross-sectional gauge area.
-  - Modulus of Resilience in MJ/m<sup>3</sup> as the area under the linear elastic region.
-  - Modulus of Toughness in MJ/m<sup>3</sup> as the area under the full stress-strain curve.
+  - Modulus of Resilience (U<sup>r</sup>) in MJ/m<sup>3</sup> as the area under the linear elastic region.
+  - Modulus of Toughness (U<sup>t</sup>) in MJ/m<sup>3</sup> as the area under the full stress-strain curve.
   - Ramberg-Osgood parameters
     - Strength coefficient, K in MPa.
     - Strain hardening exponent, n.
@@ -57,8 +57,8 @@ The data file must be formatted to contain data for columns in the format and as
 
 ### Circular cross-section specimens
 | Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Diameter (mm)	| Final Length (mm)	| Final Diameter (mm) |
-### Rectangular cross-section specimens
-| Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Thickness (mm)	| Original Width (mm)	| Final Length (mm)	| Final Thickness (mm) | Final Width (mm) |
+//### Rectangular cross-section specimens
+//| Time (s) | Extension (mm)	| Load (kN)	| Strain (mm/mm)	| Original Length (mm)	| Original Thickness (mm)	| Original Width (mm)	| Final Length (mm)	| Final Thickness (mm) | Final Width (mm) |
 
 ## Examples and Testing
 
