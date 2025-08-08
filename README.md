@@ -40,7 +40,8 @@ The Tensile Analyzer has the following features:
   - Regions of resilience and toughness moduli.
   - Engineering vs true stress-strain curve.
   - Ramberg-Osgood curve fitting.
-- Export plots and results.
+  - Hollomon curve fitting.
+- Export plots and results in various data formats.
 ## Installation Instructions
 To run the Tensile Analyzer program, the following prerequisite Python libraries must be installed:
 ```
@@ -54,7 +55,7 @@ Data files exported from the UTM testing software can be imported into the Tensi
 - XLSM (.xlsm)
 - TXT (.txt)
 
-The data file must be formatted to contain data for columns in the format and associated metric units defined below. The columns for recording the final post-fracture cross-sectional geometry of the tested specimen are optional. If these columns are blank, the program won't calculate elongation after fracture or reduction of area accordingly.
+The data file must be formatted to contain data for columns in the format and associated metric units defined below. The columns for recording the final post-fracture cross-sectional geometry of the tested specimen are optional. Multiple datapoints can be included for these columns, and the program will take the average of these post-fracture measurements to improve precision. If these columns are blank, the program won't calculate elongation after fracture or reduction of area accordingly.
 
 > [!IMPORTANT]
 >  The program currently only supports specimens with a circular cross-section.
@@ -66,7 +67,7 @@ The data file must be formatted to contain data for columns in the format and as
 
 ## Examples and Testing
 
-To be completed...
+Tensile test data for 1045 Steel in the Normalized heat treatment conditions were used to test this program. The data used was obtained from the Materials Science and Engineering lab reports at the University of Illinois Urbana-Champaign[^5]. 3 test data files are in the "Test Data" folder and can be used to evaluate and experiment with the software.
 
 ## License and Citation
 To cite this program
@@ -81,3 +82,4 @@ Copyright (c) 2025 Duncan W. Gibbons, Ph.D.
 [^2]: ASTM International. Standard Test Method for Young’s Modulus, Tangent Modulus, and Chord Modulus. ASTM E111, 2017.
 [^3]: Ramberg, W., & Osgood, W. R. (1943). Description of stress–strain curves by three parameters. Technical Note No. 902, National Advisory Committee For Aeronautics, Washington, DC. 
 [^4]: J. H. Hollomon, “Tensile Deformation,” Transactions of the Metallurgical Society of AIME, Vol. 162, 1945, pp. 268-290.
+[^5]: https://files.mtil.illinois.edu/data/Courses/Spring%202025/MSE%20308/Tension%20Testing/Group%202/
