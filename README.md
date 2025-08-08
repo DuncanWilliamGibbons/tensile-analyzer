@@ -1,5 +1,5 @@
 # Tensile Analyzer
-[![DOI](https://zenodo.org/badge/1017644488.svg)](https://doi.org/10.5281/zenodo.16783215)
+[![DOI](https://zenodo.org/badge/1017644488.svg)](https://doi.org/10.5281/zenodo.16783280)
 
 This program processes and analyzes tensile test data in accordance with ASTM standards. Such data are often analyzed using spreadsheets and lack a standard methodology, which is prone to user error and tedious. This program aims to reduce such user errors and improve the accuracy and precision of the calculated mechanical properties more efficiently. 
 
@@ -83,7 +83,7 @@ Tensile test data for 1045 Steel in the Normalized heat treatment conditions wer
 ## Citation and License
 If you adapt or use this software, please refer to the CITATION.cff file for the citation style. This software can be cited as follows:
 
-Gibbons, D. W. (2025). Tensile Analyzer (Version 1.6) [Computer software]. https://doi.org/10.5281/zenodo.16783216
+Gibbons, D. W. (2025). Tensile Analyzer (Version 1.6) [Computer software]. https://doi.org/10.5281/zenodo.16783280
 
 MIT License
 
