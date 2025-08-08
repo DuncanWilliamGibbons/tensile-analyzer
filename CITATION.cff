@@ -5,7 +5,7 @@ authors:
   given-names: "Duncan W."
   orcid: "https://orcid.org/0000-0002-7641-4221"
 title: "Tensile Analyzer"
-version: 1.5
+version: 1.6
 doi: 
 date-released: 2025-08-08
 url: "https://github.com/DuncanWilliamGibbons/tensile-analyzer"
