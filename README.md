@@ -16,7 +16,7 @@ The following plots can be generated and exported:
 - [Installation Instructions](#installation-instructions)
 - [Data Format](#data-format)
 - [Examples and Testing](#examples-and-testing)
-- [License and Citation](#license-and-citation)
+- [License and Citation](#citation-and-license)
 - [References](#references)
 ## Features
 The Tensile Analyzer has the following features:
@@ -70,14 +70,13 @@ The data file must be formatted to contain data for columns in the format and as
 
 Tensile test data for 1045 Steel in the Normalized heat treatment conditions were used to test this program. The data used was obtained from the Materials Science and Engineering lab reports at the University of Illinois Urbana-Champaign[^5]. 3 test data files are in the "Test Data" folder and can be used to evaluate and experiment with the software. Below are some examples of the analyses and plots this software can perform.
 
-<img width="907" height="484" alt="Interface" src="https://github.com/user-attachments/assets/0f54db18-d290-4a9a-9779-9b27ee677d4d" />
+<img src="Figures/Interface.png" alt="Interface" width="65%"> <img src="Figures/Data Export.png" alt="Data Export" width="25%">
 
-<img width="2150" height="1534" alt="True Stress-Strain" src="https://github.com/user-attachments/assets/8235d008-5445-483a-97e7-bec0adb165b0" />
-<img width="2150" height="1534" alt="Ramberg" src="https://github.com/user-attachments/assets/1c5f0a60-3089-4f2d-a68d-2a208ebb0c26" />
-<img width="2150" height="1534" alt="Moduli" src="https://github.com/user-attachments/assets/6dde6b11-8841-4030-8875-b6ae3df806fe" />
-<img width="265" height="422" alt="Data Export" src="https://github.com/user-attachments/assets/216ffc05-3733-4d19-a86f-5c1e18462089" />
+<img src="Figures/Moduli.png" alt="Moduli" width="45%"> <img src="Figures/True Stress-Strain.png" alt="True Stress-Strain" width="45%">
 
-
+<p align="center">
+<img src="Figures/Ramberg.png" alt="Ramberg" width="65%">
+</p>
 
 ## Citation and License
 If you adapt or use this software, please refer to the CITATION.cff file for the citation style. This software can be cited as follows:
