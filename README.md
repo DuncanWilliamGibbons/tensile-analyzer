@@ -52,7 +52,8 @@ After installing these prerequisites, the tensile_analyzer_XXX.py (where XXX is 
 ## Data Format
 Data files exported from the UTM testing software can be imported into the Tensile Analyzer program in the following formats:
 - CSV (.csv)
-- XLSM (.xlsm)
+- XLSX (.xlsx)
+- XLS (.xls)
 - TXT (.txt)
 
 The data file must be formatted to contain data for columns in the format and associated metric units defined below. The columns for recording the final post-fracture cross-sectional geometry of the tested specimen are optional. Multiple datapoints can be included for these columns, and the program will take the average of these post-fracture measurements to improve precision. If these columns are blank, the program won't calculate elongation after fracture or reduction of area accordingly.
