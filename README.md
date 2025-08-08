@@ -8,7 +8,7 @@ The following plots can be generated and exported:
 - Stress-strain plot with highlighted modulus of resilience and modulus of toughness areas.
 - Engineering stress-strain plot overlayed with true stress-strain plot.
 - Ramberg-Osgood[^3] curve fitting and parameters.
-- Hollomon[^4] equation parameters.
+- Hollomon[^4] curve fitting and parameters.
 
 ## Table of Contents
 - [Description](#tensile-analyzer)
