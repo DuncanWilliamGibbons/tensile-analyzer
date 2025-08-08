@@ -73,7 +73,7 @@ Tensile test data for 1045 Steel in the Normalized heat treatment conditions wer
 ## Citation and License
 If you adapt or use this software, please take a look at the CITATION.cff file for the citation style. This software can be cited as follows:
 
-Gibbons, D. W. (2025). Tensile Analyzer (Version 1.6) [Computer software]. https://github.com/DuncanWilliamGibbons/tensile-analyzer
+Gibbons, D. W. (2025). Tensile Analyzer (Version 1.6) [Computer software]. https://doi.org/10.5281/zenodo.16783216
 
 MIT License
 
