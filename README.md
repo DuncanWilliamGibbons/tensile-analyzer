@@ -68,7 +68,16 @@ The data file must be formatted to contain data for columns in the format and as
 
 ## Examples and Testing
 
-Tensile test data for 1045 Steel in the Normalized heat treatment conditions were used to test this program. The data used was obtained from the Materials Science and Engineering lab reports at the University of Illinois Urbana-Champaign[^5]. 3 test data files are in the "Test Data" folder and can be used to evaluate and experiment with the software.
+Tensile test data for 1045 Steel in the Normalized heat treatment conditions were used to test this program. The data used was obtained from the Materials Science and Engineering lab reports at the University of Illinois Urbana-Champaign[^5]. 3 test data files are in the "Test Data" folder and can be used to evaluate and experiment with the software. Below are some examples of the analyses and plots this software can perform.
+
+<img width="907" height="484" alt="Interface" src="https://github.com/user-attachments/assets/0f54db18-d290-4a9a-9779-9b27ee677d4d" />
+
+<img width="2150" height="1534" alt="True Stress-Strain" src="https://github.com/user-attachments/assets/8235d008-5445-483a-97e7-bec0adb165b0" />
+<img width="2150" height="1534" alt="Ramberg" src="https://github.com/user-attachments/assets/1c5f0a60-3089-4f2d-a68d-2a208ebb0c26" />
+<img width="2150" height="1534" alt="Moduli" src="https://github.com/user-attachments/assets/6dde6b11-8841-4030-8875-b6ae3df806fe" />
+<img width="265" height="422" alt="Data Export" src="https://github.com/user-attachments/assets/216ffc05-3733-4d19-a86f-5c1e18462089" />
+
+
 
 ## Citation and License
 If you adapt or use this software, please take a look at the CITATION.cff file for the citation style. This software can be cited as follows:
@@ -84,5 +93,6 @@ Copyright (c) 2025 Duncan W. Gibbons, Ph.D.
 [^1]: ASTM International. Standard Test Methods for Tension Testing of Metallic Materials. ASTM E8/E8M, 2024.
 [^2]: ASTM International. Standard Test Method for Young’s Modulus, Tangent Modulus, and Chord Modulus. ASTM E111, 2017.
 [^3]: Ramberg, W., & Osgood, W. R., Description of stress–strain curves by three parameters. Technical Note No. 902, 1943, National Advisory Committee For Aeronautics, Washington, DC. 
-[^4]: Hollomon, J. H., “Tensile Deformation,” Transactions of the Metallurgical Society of AIME, Vol. 162, 1945, pp. 268-290.
+[^4]: Hollomon, J. H., “Tensile Deformatio<img width="265" height="422" alt="Data Export" src="https://github.com/user-attachments/assets/2d249f43-9e02-4df1-be25-f5452b619ddf" />
+n,” Transactions of the Metallurgical Society of AIME, Vol. 162, 1945, pp. 268-290.
 [^5]: https://files.mtil.illinois.edu/data/Courses/Spring%202025/MSE%20308/Tension%20Testing/Group%202/
