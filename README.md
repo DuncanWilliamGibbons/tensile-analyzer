@@ -70,8 +70,10 @@ The data file must be formatted to contain data for columns in the format and as
 
 Tensile test data for 1045 Steel in the Normalized heat treatment conditions were used to test this program. The data used was obtained from the Materials Science and Engineering lab reports at the University of Illinois Urbana-Champaign[^5]. 3 test data files are in the "Test Data" folder and can be used to evaluate and experiment with the software.
 
-## License and Citation
-To cite this program
+## Citation and License
+If you adapt or use this software, please take a look at the CITATION.cff file for the citation style. This software can be cited as follows:
+
+Gibbons, D. W. (2025). Tensile Analyzer (Version 1.6) [Computer software]. https://github.com/DuncanWilliamGibbons/tensile-analyzer
 
 MIT License
 
