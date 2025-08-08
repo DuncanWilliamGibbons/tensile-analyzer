@@ -80,7 +80,7 @@ Tensile test data for 1045 Steel in the Normalized heat treatment conditions wer
 
 
 ## Citation and License
-If you adapt or use this software, please take a look at the CITATION.cff file for the citation style. This software can be cited as follows:
+If you adapt or use this software, please refer to the CITATION.cff file for the citation style. This software can be cited as follows:
 
 Gibbons, D. W. (2025). Tensile Analyzer (Version 1.6) [Computer software]. https://doi.org/10.5281/zenodo.16783216
 
@@ -93,6 +93,5 @@ Copyright (c) 2025 Duncan W. Gibbons, Ph.D.
 [^1]: ASTM International. Standard Test Methods for Tension Testing of Metallic Materials. ASTM E8/E8M, 2024.
 [^2]: ASTM International. Standard Test Method for Young’s Modulus, Tangent Modulus, and Chord Modulus. ASTM E111, 2017.
 [^3]: Ramberg, W., & Osgood, W. R., Description of stress–strain curves by three parameters. Technical Note No. 902, 1943, National Advisory Committee For Aeronautics, Washington, DC. 
-[^4]: Hollomon, J. H., “Tensile Deformatio<img width="265" height="422" alt="Data Export" src="https://github.com/user-attachments/assets/2d249f43-9e02-4df1-be25-f5452b619ddf" />
-n,” Transactions of the Metallurgical Society of AIME, Vol. 162, 1945, pp. 268-290.
+[^4]: Hollomon, J. H., “Tensile Deformation,” Transactions of the Metallurgical Society of AIME, Vol. 162, 1945, pp. 268-290.
 [^5]: https://files.mtil.illinois.edu/data/Courses/Spring%202025/MSE%20308/Tension%20Testing/Group%202/
