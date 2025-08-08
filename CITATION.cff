@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software as referenced below."
 authors:
-- family-names: "Gibbons, Ph.D."
+- family-names: "Gibbons"
   given-names: "Duncan W."
   orcid: "https://orcid.org/0000-0002-7641-4221"
 title: "Tensile Analyzer"
