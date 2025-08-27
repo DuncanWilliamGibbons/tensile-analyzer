@@ -1,7 +1,5 @@
 # Tensile Analyzer
-[![DOI](https://zenodo.org/badge/1017644488.svg)](https://doi.org/10.5281/zenodo.16783280)
-
-[![Github All Releases](https://img.shields.io/github/downloads/DuncanWilliamGibbons/tensile-analyzer/total.svg)]()
+[![DOI](https://zenodo.org/badge/1017644488.svg)](https://doi.org/10.5281/zenodo.16783280) [![Github All Releases](https://img.shields.io/github/downloads/DuncanWilliamGibbons/tensile-analyzer/total.svg)]()
 
 This program processes and analyzes tensile test data in accordance with ASTM standards. Such data are often analyzed using spreadsheets and lack a standard methodology, which is prone to user error and tedious. This program aims to reduce such user errors and improve the accuracy and precision of the calculated mechanical properties more efficiently. 
 
